@@ -1,0 +1,313 @@
+
+/* ナビゲーションレイアウト */
+#nav-pc{
+  text-align:  right;
+  font-size : 25px;
+  background-color: rgb(40, 188, 40);
+  padding-bottom: 15px;
+}
+/* ナビゲーションのリンクの装飾設定 */
+#nav-pc > a{
+  text-decoration: none;
+  margin-left: 20px;
+}
+#nav-pc > a:link{
+  color: white;
+}
+#nav-pc > a:visited{
+  color: floralwhite;
+}
+#nav-pc >a:hover{
+  color: floralwhite;
+}
+#nav-pc > a:active{
+  color:floralwhite;
+}
+
+/* メインビジュアル */
+#worldcup-main{
+  position: relative;
+  height: 600px;
+}
+#worldcup-logo{
+  position:absolute;
+  top:0;
+  color: floralwhite;
+  height: 100%;
+  width: 100%;
+  z-index: 11;
+}
+#worldcup-logo > h1 {
+  font-size: 60px;
+  font-weight: lighter;
+  text-align: center;
+  
+  
+  
+  }
+  #worldcup-logo > p {
+    font-size: 30px;
+    text-align: center;
+    
+  }
+
+#worldcup-main > img{
+  width: 100%;
+  height: 600px;
+  position: absolute;
+  top: 0;
+  z-index: 10;
+
+}
+
+/* 大会見出し */
+.worldcup-2{
+  font-weight: bold;
+  margin-left: 20px;
+  font-size: 50px;
+}
+.worldcup-3{
+  text-align: center;
+}
+h2::after{
+  content: url("imges/line.png");
+}
+/* 写真サイズ */
+.history-photo{
+  width: 350px;
+  height: 250px;
+}
+/* 1986年大会 */
+#worldcup1986{
+  background: floralwhite;
+  width: 100%;
+  margin: 40px 0 40px 0;
+}
+
+/* 外枠 */
+#worldcup1986 > div{
+  display: flex;
+}
+/* 1986年左シーン */
+#worldcup1986-left{
+  width: 50%;
+  margin-right: 20px;
+  text-align: center;
+}
+/* 1986年右シーン */
+#worldcup1986-right{
+  width: 50%;
+  margin-left: 20px;
+  margin-top: 50px;
+  background-color: aqua;
+  box-shadow: 5px 5px 10px rgba(222, 211, 211, 0.05);
+  }
+  /* 1990大会 */
+  #worldcup1990{
+    background: floralwhite;
+    width: 100%;
+    margin: 40px 0 40px 0;
+  }
+  
+  /* 外枠 */
+  #worldcup1990 > div{
+    margin-top: 50px;
+    display: flex;
+  }
+  /* 1990年左シーン */
+#worldcup1990-left{
+  width: 50%;
+  margin-left: 20px;
+  background-color: rgb(147, 205, 21);
+  box-shadow: 5px 5px 10px rgba(222, 211, 211, 0.05);
+}
+/* 1990年右シーン */
+#worldcup1990-right{
+  width: 50%;
+  margin-left: 100px;
+  margin-top: 50px;
+  text-align: center;
+  }
+ /* 1994年大会 */
+#worldcup1994{
+  background: floralwhite;
+  width: 100%;
+  margin: 40px 0 40px 0;
+}
+
+/* 外枠 */
+#worldcup1994 > div{
+  display: flex;
+}
+/* 1994年左シーン */
+#worldcup1994-left{
+  width: 50%;
+  margin-right: 20px;
+  text-align: center;
+}
+/* 1994年右シーン */
+#worldcup1994-right{
+  width: 50%;
+  margin-left: 20px;
+  margin-top: 50px;
+  background-color: rgb(123, 226, 33);
+  box-shadow: 5px 5px 10px rgba(222, 211, 211, 0.05);
+  }
+   /* 1998大会 */
+   #worldcup1998{
+    background: floralwhite;
+    width: 100%;
+    margin: 40px 0 40px 0;
+  }
+  
+  /* 外枠 */
+  #worldcup1998 > div{
+    margin-top: 50px;
+    display: flex;
+  }
+  /* 1998年左シーン */
+#worldcup1998-left{
+  width: 50%;
+  margin-left: 20px;
+  background-color: rgb(140, 145, 240);
+  box-shadow: 5px 5px 10px rgba(222, 211, 211, 0.05);
+}
+/* 1998年右シーン */
+#worldcup1998-right{
+  width: 50%;
+  margin-left: 100px;
+  margin-top: 50px;
+  text-align: center;
+  }
+
+  /* 外枠 */
+#worldcup2002 > div{
+  display: flex;
+}
+/* 2002年左シーン */
+#worldcup2002-left{
+  width: 50%;
+  margin-right: 20px;
+  text-align: center;
+}
+/* 2002年右シーン */
+#worldcup2002-right{
+  width: 50%;
+  margin-left: 20px;
+  margin-top: 50px;
+  background-color: rgb(123, 226, 33);
+  box-shadow: 5px 5px 10px rgba(222, 211, 211, 0.05);
+  }
+
+  /* 外枠 */
+  #worldcup2006 > div{
+    margin-top: 50px;
+    display: flex;
+  }
+  /* 2006年左シーン */
+#worldcup2006-left{
+  width: 50%;
+  margin-left: 20px;
+  background-color: rgb(26, 34, 192);
+  box-shadow: 5px 5px 10px rgba(222, 211, 211, 0.05);
+}
+/* 2006年右シーン */
+#worldcup2006-right{
+  width: 50%;
+  margin-left: 100px;
+  margin-top: 50px;
+  text-align: center;
+  }
+
+    /* 外枠 */
+#worldcup2010 > div{
+  display: flex;
+}
+/* 2010年左シーン */
+#worldcup2010-left{
+  width: 50%;
+  margin-right: 20px;
+  text-align: center;
+}
+/* 2010年右シーン */
+#worldcup2010-right{
+  width: 50%;
+  margin-left: 20px;
+  margin-top: 50px;
+  background-color: rgb(163, 34, 56);
+  box-shadow: 5px 5px 10px rgba(222, 211, 211, 0.05);
+  }
+  /* 外枠 */
+  #worldcup2014 > div{
+    margin-top: 50px;
+    display: flex;
+  }
+  /* 2014年左シーン */
+#worldcup2014-left{
+  width: 50%;
+  margin-left: 20px;
+  background-color: rgb(147, 205, 21);
+  box-shadow: 5px 5px 10px rgba(222, 211, 211, 0.05);
+}
+/* 2014年右シーン */
+#worldcup2014-right{
+  width: 50%;
+  margin-left: 100px;
+  margin-top: 50px;
+  text-align: center;
+  }
+      /* 外枠 */
+#worldcup2018 > div{
+  display: flex;
+}
+/* 2018年左シーン */
+#worldcup2018-left{
+  width: 50%;
+  margin-right: 20px;
+  text-align: center;
+}
+/* 2018年右シーン */
+#worldcup2018-right{
+  width: 50%;
+  margin-left: 20px;
+  margin-top: 50px;
+  background-color: rgb(140, 145, 240);
+  box-shadow: 5px 5px 10px rgba(222, 211, 211, 0.05);
+  }
+   /* 外枠 */
+   #worldcup2022 > div{
+    margin-top: 50px;
+    display: flex;
+  }
+  /* 2022年左シーン */
+#worldcup2022-left{
+  width: 50%;
+  margin-left: 20px;
+  background-color: aqua;
+  box-shadow: 5px 5px 10px rgba(222, 211, 211, 0.05);
+}
+/* 2022年右シーン */
+#worldcup2022-right{
+  width: 50%;
+  margin-left: 100px;
+  margin-top: 50px;
+  text-align: center;
+  }
+  
+  /* 名手編集開始 */
+  
+  #playerdate > h1{
+    font-size: 55px;
+    text-align: center;
+    background-color: crimson;
+    margin-top: 0%;
+  }
+  
+  #playerdata > h2 {
+    font-size: 30px;
+  }
+   /* 名手写真サイズ */
+   .playerphoto{
+    width: 200px;
+    height: 200px;
+   }
